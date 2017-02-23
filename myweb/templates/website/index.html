@@ -32,7 +32,7 @@
   </a>
   <a class="ui right labeled icon button" href="mailto:ganesh.s.shastri@gmail.com"><i class="archive icon"></i><span class="navfont">Email</span></a>
   <a class="ui right labeled icon button" href="https://github.com/shastri17" target="_blank"><i class="github icon"></i><span class="navfont">Github</span></a>
-  <a class="ui right labeled icon button" href="/"><i class="copy icon"></i><span class="navfont">Resume</span></a>
+  <a class="ui right labeled icon button" href="{% static 'doc/resume.doc'%}"><i class="copy icon"></i><span class="navfont">Resume</span></a>
   <a class="ui right labeled icon button" href="/"><i class="write icon"></i><span class="navfont">Blog</span></a>
   <a class="ui right labeled icon button" href="/"><i class="laptop icon"></i><span class="navfont">Projects</span></a>
 </div>
@@ -47,7 +47,10 @@
    <hr class="subline"/>
     <div class="maintext top-30">
 
-        <p >Welcome to my personal website..<br></p>
+        <p >Welcome to my personal website.<br>
+        This website will give you the details of projects that i have done.<br>
+        You can read my blogs.
+        </p>
         
 
         <div class="text-center top-60">
@@ -56,20 +59,20 @@
          <!-- <p class="text-left">2016:</p>
 
         <p id="timeline" class="text-muted">July</p>
-
+-->
     <ul class="timeline">
         <li>
          <div class="timeline-badge"><i class="wizard icon"></i></div>
           <div class="timeline-panel">
             <div class="timeline-heading">
-              <h3 class="timeline-title">My thoughts on Jekyll</h3>
+              <h3 class="timeline-title">Workshop</h3>
             </div>
             <div class="timeline-body">
-              <p class="timeline-text">My experiences with Jekyll after going through all the hassle to set up this blog.</p>
+              <p class="timeline-text">My experiences with workshop as a speaker.</p>
               <br>
-           <a class="ui right labeled icon button" href="/jekyllsetup">
+           <a class="ui right labeled icon button" href="{%static 'doc/chaitanya.docx' %}">
   <i class="right arrow icon"></i>
-  Read
+  document
 </a>
             </div>
           </div>
@@ -77,7 +80,7 @@
 
     </ul>
 
-
+<!--
         <p id="timeline" class="text-muted">June</p>
 
     <ul class="timeline">
