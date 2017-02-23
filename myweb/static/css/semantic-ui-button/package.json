@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "semantic-ui-button",
+        "scope": null,
+        "escapedName": "semantic-ui-button",
+        "name": "semantic-ui-button",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/hackintosh/Projects/harshavamsi.github.io"
+    ]
+  ],
+  "_from": "semantic-ui-button@latest",
+  "_id": "semantic-ui-button@2.2.3",
+  "_inCache": true,
+  "_location": "/semantic-ui-button",
+  "_nodeVersion": "6.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/semantic-ui-button-2.2.3.tgz_1471837279330_0.5964954770170152"
+  },
+  "_npmUser": {
+    "name": "semantic-bot",
+    "email": "bot@semantic-ui.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "semantic-ui-button",
+    "scope": null,
+    "escapedName": "semantic-ui-button",
+    "name": "semantic-ui-button",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/semantic-ui-button/-/semantic-ui-button-2.2.3.tgz",
+  "_shasum": "26abba86ea44cdde67079cd77984f251e5a8634e",
+  "_shrinkwrap": null,
+  "_spec": "semantic-ui-button",
+  "_where": "/Users/hackintosh/Projects/harshavamsi.github.io",
+  "author": {
+    "name": "Jack Lukic",
+    "email": "jack@semantic-ui.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+  },
+  "dependencies": {},
+  "description": "Single component release of button",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "26abba86ea44cdde67079cd77984f251e5a8634e",
+    "tarball": "https://registry.npmjs.org/semantic-ui-button/-/semantic-ui-button-2.2.3.tgz"
+  },
+  "gitHead": "9b2d743fce680397854374a0ef90d19f0b60b6f6",
+  "homepage": "http://www.semantic-ui.com",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "semantic-bot",
+      "email": "bot@semantic-ui.com"
+    }
+  ],
+  "name": "semantic-ui-button",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semantic-Org/UI-Button.git"
+  },
+  "scripts": {},
+  "title": "Semantic UI - Button",
+  "version": "2.2.3"
+}

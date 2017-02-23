@@ -1,0 +1,82 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "semantic-ui-icon",
+        "scope": null,
+        "escapedName": "semantic-ui-icon",
+        "name": "semantic-ui-icon",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/hackintosh/Projects/harshavamsi.github.io"
+    ]
+  ],
+  "_from": "semantic-ui-icon@latest",
+  "_id": "semantic-ui-icon@2.2.3",
+  "_inCache": true,
+  "_location": "/semantic-ui-icon",
+  "_nodeVersion": "6.3.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/semantic-ui-icon-2.2.3.tgz_1471837322553_0.8550356209743768"
+  },
+  "_npmUser": {
+    "name": "semantic-bot",
+    "email": "bot@semantic-ui.com"
+  },
+  "_npmVersion": "3.10.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "semantic-ui-icon",
+    "scope": null,
+    "escapedName": "semantic-ui-icon",
+    "name": "semantic-ui-icon",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/semantic-ui-icon/-/semantic-ui-icon-2.2.3.tgz",
+  "_shasum": "1abd62f82a16f23529772c137929e43e7d887175",
+  "_shrinkwrap": null,
+  "_spec": "semantic-ui-icon",
+  "_where": "/Users/hackintosh/Projects/harshavamsi.github.io",
+  "author": {
+    "name": "Jack Lukic",
+    "email": "jack@semantic-ui.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Semantic-Org/Semantic-UI/issues"
+  },
+  "dependencies": {},
+  "description": "Single component release of icon",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "1abd62f82a16f23529772c137929e43e7d887175",
+    "tarball": "https://registry.npmjs.org/semantic-ui-icon/-/semantic-ui-icon-2.2.3.tgz"
+  },
+  "gitHead": "b191ed2f3477f7bce5c0a4a8327ca15e1208f938",
+  "homepage": "http://www.semantic-ui.com",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "semantic-bot",
+      "email": "bot@semantic-ui.com"
+    }
+  ],
+  "name": "semantic-ui-icon",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Semantic-Org/UI-Icon.git"
+  },
+  "scripts": {},
+  "title": "Semantic UI - Icon",
+  "version": "2.2.3"
+}
