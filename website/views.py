@@ -11,3 +11,8 @@ def index(request):
 
 def about(request):
 	return render(request,'website/about.html')
+
+
+
+def projects(request):
+	return render(request,'website/projects.html')

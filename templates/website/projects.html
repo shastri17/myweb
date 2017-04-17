@@ -1,0 +1,89 @@
+<!DOCTYPE html>{% load staticfiles %}
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ganesh shastri</title>
+  <meta name="description" content="">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+  <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/buttons.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/semantic.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/semantic-ui-icon/icon.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/semantic-ui-button/button.css' %}">
+   <script type="text/javascript" src="{% static 'js/semantic.js' %}"></script>
+
+
+</head>
+<body class="red">
+<div class="container">
+  <div class="row">
+  <br>
+  <br>
+<div class="seven grey ui buttons hidden-xs">
+  <a class="ui right labeled icon button" href="{% url 'website:index' %}"><i class="home icon"></i>
+  <span class="navfont">Home</span>
+  </a>
+  <a class="ui right labeled icon button" href="mailto:ganesh.s.shastri@gmail.com"><i class="archive icon"></i><span class="navfont">Email</span></a>
+  <a class="ui right labeled icon button" href="https://github.com/shastri17" target="_blank"><i class="github icon"></i><span class="navfont">Github</span></a>
+  <a class="ui right labeled icon button" href="/"><i class="copy icon"></i><span class="navfont">Resume</span></a>
+  <a class="ui right labeled icon button" href="/"><i class="write icon"></i><span class="navfont">Blog</span></a>
+  <a class="ui right labeled icon button" href="{% url 'website:projets' %}"><i class="laptop icon"></i><span class="navfont">Projects</span></a>
+   <a class="ui right labeled icon button" href="https://www.facebook.com/ganesh.shastri.56"><i class="facebook icon"></i><span class="navfont">facebook</span></a>
+</div>
+
+<div class="text-center">
+
+<div class="4 ui buttons visible-xs">
+<a class="ui button" href="{% url 'website:about' %}"><span>About</span></a>
+<a class="ui button" href="https://github.com/shastri17" target="_blank"><span >Github</span></a>
+<a class="ui button" href="/"><span>Blog</span></a>
+<a class="ui button" href="{% url 'website:projets' %}"><span>Projects</span></a>
+</div>
+</div>
+<hr class="subl">
+<footer>
+<div class="text-center">
+
+
+  <div class=" col-md-8 col-md-offset-1">
+  <p><div class="top-35">
+
+
+<p class="postheading text-center" style="color:#757575;">Projects </p>
+          <section>
+            <div>
+
+              <h3 class="projectsub" style="color:#757575;"><a target="_blank" href="https://github.com/shastri17/shapes"  style="color:#757575;" class="all_links">Sh@pes</a></h3>
+              <p class="postcontent">Sh@pes is student hub at pes.<br> Technologies : python,django</p>
+
+              <h3 class="projectsub" style="color:#757575;"><a target="_blank" href="https://github.com/shastri17/lyft-cli"  style="color:#757575;" class="all_links">lyft-CLI</a></h3>
+              <p class="postcontent">command line interface for LYFT. <br> Technologies : node.js,npm</p>
+
+              <h3 class="projectsub" style="color:#757575;"><a target="_blank" href="https://github.com/shastri17/myweb"  style="color:#757575;" class="all_links">myweb</a></h3>
+              <p class="postcontent">This website Build using Bootstrap, ButtonsCSS, SemanticUI for frontend and django as backend.<br> Technologies: python,django</p>
+
+              <h3 class="projectsub" style="color:#757575;"><a target="_blank" href="https://github.com/shastri17/Arduino"  style="color:#757575;" class="all_links">Arduino</a></h3>
+              <p class="postcontent">Home automation using arduino uno. <br>Technology: embedded c</p>
+
+
+            </div>
+          </section>
+
+          </div>
+          <br>
+
+
+         </p>
+  </div>
+  </div>
+  </div>
+
+    <p class="footertext" style="color:#757575;">&copy; Harsha Vamsi 2016</p>
+  </div>
+  </footer>
+  <script src="../js/insta.js" data-no-instant></script>
+  <script data-no-instant>InstantClick.init();</script>
+</body>

@@ -6,7 +6,8 @@ app_name = 'website'
 
 urlpatterns = [
 	url(r'^$',views.index,name='index'),
-	url(r'^new/$',views.about,name='about'),
+	url(r'^about/$',views.about,name='about'),
+	url(r'^projects/$',views.projects,name='projects'),
 
 
 
